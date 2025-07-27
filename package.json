@@ -1,0 +1,14 @@
+{
+  "name": "todoapp-ui-tests",
+  "version": "1.0.0",
+  "description": "UI automation tests for Todo App using Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report",
+    "test:coverage": "playwright test --coverage"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  }
+} 
